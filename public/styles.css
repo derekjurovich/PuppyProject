@@ -1,0 +1,38 @@
+form {
+	text-align: auto;
+	size: 60px;
+	padding: 20px;
+}
+
+.getButton {
+
+	
+	
+}
+
+h1 {
+
+	text-align: auto;
+}
+
+.textColor {
+
+		color: white;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.adjustForm {
+	padding: 0 20px 0 20px
+
+}
+
+#button {
+
+	color: fff;
+}
