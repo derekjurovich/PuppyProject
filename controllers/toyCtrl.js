@@ -4,7 +4,7 @@
 // var dogs = require('./dogs.js');
 // var db = mongojs('dogs', ['doginfo']); //collection , first argument is database, second argument is the collection
 
-var ToyModel = require('./models/ToyModel.js');
+var ToyModel = require('./models/toymodel.js');
 
 //mongoose methods include --> 
 

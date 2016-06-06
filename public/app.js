@@ -70,8 +70,9 @@ $.ajax({
 
 				
 		}).then function(response) {
+		
+		}
 
-}
 };
 
 $("#reload").on("click",function(){ //when you have a post button use that id here
@@ -79,7 +80,7 @@ $("#reload").on("click",function(){ //when you have a post button use that id he
 			name: $("#dogName").val();	//this is from the id of text box
 			breed: $("#dogBreed").val();
 			legs: $("#dogLegs").val();
-		}
+		};
 		postDog(newDog);		
 	});
 

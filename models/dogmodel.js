@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 //look up mongoose docs for paranaters on schema min max or must have certain values
 // require model files that link to dog model
-var ownerSchema = require('./ownerSchema.js'); 
+var Owner = require('./ownerSchema.js'); 
 var ToyModel = require('./toymodel.js');
 
 var dogSchema = new mongoose.Schema({

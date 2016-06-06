@@ -13,7 +13,7 @@ var ownerSchema = new mongoose.Schema({
 
 });
 
-export.modules = ('Owner', ownerSchema); 
+module.exports = ('Owner', ownerSchema); 
 
 
 // "Owner" is what we call this when we refer to it, ownerSchema is the object schema. In other documents we can call to this by "Owner"
